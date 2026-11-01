@@ -1,0 +1,3 @@
+model,validation_mae_gbp
+Median baseline,8041.923702313946
+Ridge regression,2932.6645817257054
