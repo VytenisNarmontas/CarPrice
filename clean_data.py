@@ -63,3 +63,8 @@ output_path.parent.mkdir(parents=True, exist_ok=True)
 cars.to_csv(output_path, index=False)
 
 print("Cleaned dataset saved!")
+
+
+print("Final rows:", len(cars))
+print("Final missing values:")
+print(cars.isna().sum())
